@@ -14,10 +14,7 @@ p {
 	font-size: 14pt;
 }
 
-li {
-	display: inline;
-	padding: 0px 20px 0px 20px;
-}
+/* modules comment  */
 
 .header {
 	width: 960px;
@@ -27,6 +24,17 @@ li {
 
 .navigation {
 	width: 960px;
+	height: 60px;
+}
+
+.navigation li {
+	display: inline;
+	padding: 0px 20px 0px 20px;
+	background-color: black;
+}
+
+.navigation ul {
+	height: 20px;
 }
 
 .hero {
@@ -39,7 +47,7 @@ li {
 	width: 590px;
 }
 
-.sidebar_module {
+.sidebar_container {
 	width: 300px;
 	height: 500px;
 	background-color: #e9e9e9;
