@@ -45,26 +45,25 @@ main {
 	background-color: #F58220;
 }
 
-.navigation {
+nav {
 	width: 100%;
 	margin: 0;
 }
 
-.navigation ul {
+nav ul {
 	width: 100%;
 	list-style-type: none;
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-.navigation li {
+nav li {
 	float: left;
 	padding: 18px 36px 18px 36px;
 	border: 1px solid #d3d3d3;
-	/*margin: 0;*/
 }
 
-.navigation li a {
+nav li a {
 	text-decoration: none;
 	font-size: 12pt;
 	color: #485662;
@@ -73,6 +72,8 @@ main {
 
 .donate {
 	background-color: #f58220;
+	width: 64px;
+	float: right;
 }
 
 .hero {
@@ -91,7 +92,6 @@ main {
 	font-family: gobold;
 	color: #485662;
 	font-size: 14pt;
-	width: 85px;
 	height: 35px;
 	margin: 10px 10px 5px 0px;
 	border: .5px solid grey;
@@ -100,20 +100,13 @@ main {
 	border-radius: 10px;
 }
 
-.long_button {
-	float: left;
-	background-color: #e9e9e9;
-	font-family: gobold;
-	color: #485662;
-	font-size: 14pt;
+.short {
+	width: 85px;
+}
+
+.long {
 	width: 150px;
-	height: 35px;
-	margin: 10px 10px 5px 0px;
-	border: .5px solid grey;
-	box-shadow: 3px 3px 30px 5px #333333;
-	padding: 12px 5px 0 20px;
-	border-radius: 10px;
-	}
+}
 
 .description {
 	width: 64%;
