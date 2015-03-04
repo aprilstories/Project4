@@ -1,16 +1,28 @@
+@font-face {
+    font-family: 'goboldregular';
+    src: url('../fonts/Gobold Regular-webfont.eot');
+    src: url('../fonts/Gobold Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Gobold Regular-webfont.woff2') format('woff2'),
+         url('../fonts/Gobold Regular-webfont.woff') format('woff'),
+         url('../fonts/Gobold Regular-webfont.ttf') format('truetype'),
+         url('../fonts/Gobold Regular-webfont.svg#goboldregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
 	font-family: candara;
 }
 
 h1 {
-	font-family: gobold;
+	font-family: goboldregular;
 	font-size: 30pt;
 	margin-top: 10px;
 	margin-bottom: 0;
 }
 
 h3 {
-	font-family: gobold;
+	font-family: goboldregular;
 	font-size: 20pt;
 	margin-top: 0;
 	margin-bottom: 50px;
